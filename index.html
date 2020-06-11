@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avatar</title>
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    
+</head>
+<body>
+    <section class="center">
+        <span id="s1">Create Your</span>
+        <span id="s2">Funny Avatar</span>
+        <span id="s3">using Name...</span>
+
+        <div class="row">
+            <div class="col s12 m12 l12">
+                <div >
+                   <h4>Enter Your Name</h4> 
+                    <input type="text" name="" id="nameid">
+                </div>
+    
+                <div>
+                    <img src="avatar.jpg" width="200" height="200" id="imgid">
+                </div>
+                <button id="bid">Check Out</button>
+            </div>
+
+        </div>
+    </section>
+
+<!-- JQuery -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<script>
+   $(document).ready(function(){
+        $('button').click(function(){
+            const name = $('#nameid').val();
+            //alert(name);
+
+            $('#imgid').attr('src',`https://joeschmoe.io/api/v1/${name}`);
+        });
+   });
+</script>
+
+</body>
+<!-- Google Font -->
+<link href="https://fonts.googleapis.com/css2?family=Galada&display=swap" rel="stylesheet"> 
+
+
+
+<!-- Compiled and minified JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+</html>
+
+

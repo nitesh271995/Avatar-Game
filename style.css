@@ -1,0 +1,58 @@
+body{
+    background-color:black;
+    font-family: 'Galada', cursive;
+}
+
+.col{
+    width: auto;
+    border-style: solid;
+    background-color: #888888;
+}
+h4{
+    color:#101010;
+}
+
+h2{
+    color:tomato;
+}
+
+#bid{
+    font-style: italic,bold;    
+    background-color:#ff0000;
+    border-radius: 50px;
+    border-color: black;
+    width: 150px;
+    height: 40px;;
+}
+
+#bid:hover{
+   background-color:#ff0000;
+   color: black;
+}
+
+#nameid{
+
+    border-style: solid;
+    background-color: #00cc00;
+    height: 30px;
+    width: auto;
+}
+
+.center{
+    width: auto;
+}
+
+#s1{
+    font-size:45px;
+    color: #ff471a;
+}
+
+#s2{
+    font-size: 58px;
+    color:#ffff66;
+}
+
+#s3{
+    font-size:45px;;
+    color:#ff471a;
+}
